@@ -6,3 +6,9 @@
 * Cyclic dependencies between the services
 
 # The Solution
+The solution consist of dividing the problem into smaller problem
+* Setup a SQL Server database
+* Setup a .NET6 app with EFCore
+* Separating the FE app into another repository
+* Creating a dockerfile for backend and frontend
+* Using kubernetes to run those services 
